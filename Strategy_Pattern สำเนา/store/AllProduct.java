@@ -1,0 +1,10 @@
+package Strategy_Pattern.store;
+// 6510451123 อาณัฏฐชา กรรภิรมย์
+import java.util.List;
+public class AllProduct implements Counter {
+    @Override
+    public int count(List<Product> products) {
+        return products.size();
+    }
+
+}
